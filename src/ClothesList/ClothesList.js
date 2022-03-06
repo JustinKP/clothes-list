@@ -37,28 +37,6 @@ export const ClothesList = ({isReactClassroom, role}) => { //, loggedIn
     }
   } //handler for the button click
 
-  //studentList.filter(student => student.name.startsWith('B'));
-  //clothesTable.filter(clothes => clothes.name.startsWith('T'));
-  // function handleFilter() {
-  //   var input, filter, table, td, i, txtValue;
-  //   input = document.getElementById("myInput");
-  //   filter = input.value.toUpperCase();
-  //   table = document.getElementById("clothesTable");
-  //   td = table.getElementsByTagName("td");
-  //   console.log();
-  //   for (i = 0; i < td.length; i++) {
-  //     //td = tr[i].getElementsByTagName("td")[0];
-  //     if (td) {
-  //       txtValue = td.textContent || td.innerText;
-  //       if (txtValue.toUpperCase().indexOf(filter) > -1) {
-  //         tr[i].style.display = "";
-  //       } else {
-  //         tr[i].style.display = "none";
-  //       }
-  //     }       
-  //   }
-  // }
-
   return (
     <div className="student-list">
       <table id="clothesTable">
